@@ -1,0 +1,15 @@
+body {
+  margin: 64px 32px 0px;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* pastel color */
+}
+
+th {
+  background-color: blueviolet;
+  color: white;
+  padding: 8px;
+}
+
+td {
+  padding: 8px;
+}
