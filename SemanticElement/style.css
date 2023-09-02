@@ -5,12 +5,6 @@ body {
   background-color: #ffffff; /* pastel color */
 }
 
-h1,
-p {
-  width: 40%;
-  float: left;
-}
-
 p {
   margin: 0px 0px 16px 0px;
 }
@@ -18,7 +12,6 @@ p {
 img {
   margin: 16px 0px 0px 0px;
   width: 50%;
-  float: right;
 }
 
 a[href="/signup"] {
