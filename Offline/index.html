@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WAI Tutorials</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("/sw.js").then(
+            function (registration) {
+              // Registration was successful
+              console.log(
+                "ServiceWorker registration successful with scope: ",
+                registration.scope
+              );
+            },
+            function (err) {
+              // registration failed :(
+              console.log("ServiceWorker registration failed: ", err);
+            }
+          );
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <div class="header">
+      <p>Bootcamp</p>
+      <h1>อัปสกิลแบบก้าวกระโดด ด้วยหลักสูตรระยะยาว</h1>
+      <p>
+        ทั้งด้าน Data Analytics, UX/UI, Product Management, และ Digital
+        Leadership เรียนกับผู้สอนและ Speaker ระดับท็อปของวงการ อัดแน่นทุกเนื้อหา
+        เรียนจบใช้ได้จริง
+      </p>
+    </div>
+    <div class="list">
+      <h1>Bootcamp ที่เปิดรับสมัคร</h1>
+      <h2>Data Analytics Bootcamp</h2>
+      <p>
+        หลักสูตร Data Analytics สุดเข้มข้น 12 สัปดาห์ อัปสกิลวิเคราะห์ข้อมูล
+        เปลี่ยนคุณให้ทำงาน และตัดสินใจแบบ Data-Driven!
+      </p>
+      <p>เริ่มเรียน 4 พ.ย. - 3 พ.ย.</p>
+      <a href="/data.html">ดูรายละเอียด</a>
+      <h2>Performance Marketing Bootcamp</h2>
+      <p>
+        เปลี่ยนคุณให้เป็น Performance Marketer ตัวจริง ตำแหน่งที่หลายๆ
+        บริษัทกำลังต้องการในตอนนี้
+      </p>
+      <p>เริ่มเรียน 8 พ.ย. - 16 พ.ย.</p>
+      <a href="/performance.html">ดูรายละเอียด</a>
+    </div>
+  </body>
+</html>

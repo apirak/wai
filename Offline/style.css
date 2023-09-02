@@ -1,0 +1,36 @@
+body {
+  margin: 0px;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* pastel color */
+}
+
+p {
+  margin: 0px 0px 16px 0px;
+}
+
+img {
+  margin: 16px 0px 0px 0px;
+  width: 400px;
+}
+
+a {
+  background-color: rgb(250, 169, 26);
+  color: #fff;
+  border-radius: 16px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+h2 {
+  margin: 32px 0px 16px 0px;
+}
+
+.header {
+  background: #000;
+  padding: 32px;
+  color: #fff;
+}
+
+.list {
+  padding: 32px;
+}
