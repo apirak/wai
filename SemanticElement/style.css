@@ -1,6 +1,5 @@
 body {
-  width: 800px;
-  margin: 64px auto 0px;
+  margin: 64px 32px 0px;
   font-family: Arial, sans-serif;
   background-color: #ffffff; /* pastel color */
 }
@@ -11,7 +10,7 @@ p {
 
 img {
   margin: 16px 0px 0px 0px;
-  width: 50%;
+  width: 400px;
 }
 
 a[href="/signup"] {
