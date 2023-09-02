@@ -4,22 +4,19 @@ body {
   font-family: Arial, sans-serif;
   background-color: #ffffff; /* pastel color */
 }
-
-p {
-  margin: 0px 0px 16px 0px;
-}
-
-img {
-  margin: 16px 0px 0px 0px;
-  width: 50%;
+select {
+  margin: 16px 0px;
+  display: block;
 }
 
 a[href="/signup"] {
-  display: inline-block;
+  display: block;
   color: #000;
   background-color: #fbd1a2;
   padding: 10px 20px;
-  margin: 0px 0px 16px 0px;
+  margin: 16px 0px 16px 0px;
+  width: 100px;
+  text-align: center;
   text-decoration: none;
 }
 

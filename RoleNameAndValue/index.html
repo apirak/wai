@@ -3,15 +3,21 @@
   <head>
     <title>WAI Tutorials</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script>
+      function submitForm() {
+        document.getElementById("myForm").submit();
+      }
+    </script>
   </head>
   <body>
-    <h1>เลือกบทเรียนที่สนใจ</h1>
-    <select aria-label="เลือกบทเรียนที่สนใจ" name="course">
-      <option value="data">Data</option>
-      <option value="design">Design</option>
-      <option value="coding">Coding</option>
-    </select>
-    <a href="/signup">Sign up Now</a>
-    <a href="/learnmore">Learn more about learning</a>
+    <h1>หาเรื่องเรียน</h1>
+    <form id="myForm">
+      <select aria-label="เลือกบทเรียนที่สนใจ" name="course">
+        <option value="data">Data workshop</option>
+        <option value="design">Design workshop</option>
+        <option value="coding">Coding online</option>
+      </select>
+      <a role="button" href="/signup" onclick="submitForm()">Sign up Now</a>
+    </form>
   </body>
 </html>
