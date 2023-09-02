@@ -1,0 +1,36 @@
+body {
+  width: 800px;
+  margin: 64px auto 0px;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* pastel color */
+}
+
+h1,
+p {
+  width: 40%;
+  float: left;
+}
+
+p {
+  margin: 0px 0px 16px 0px;
+}
+
+img {
+  margin: 16px 0px 0px 0px;
+  width: 50%;
+  float: right;
+}
+
+a[href="/signup"] {
+  display: inline-block;
+  color: #000;
+  background-color: #fbd1a2;
+  padding: 10px 20px;
+  margin: 0px 0px 16px 0px;
+  text-decoration: none;
+}
+
+a[href="/learnmore"] {
+  display: block;
+  color: #5d737e;
+}
